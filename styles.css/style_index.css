@@ -89,7 +89,7 @@ main {
     align-items: center;
     color: white;
     height: 150px;
-    background-color: #17214C ;
+    background-color: #2C533C ;
     position: relative;
 }
 .sec_balloon::before {
@@ -100,7 +100,7 @@ main {
     transform: translateX(-50%);
     border-left: 40px solid transparent;
     border-right: 40px solid transparent;
-    border-top: 40px solid #17214C;
+    border-top: 40px solid #2C533C;
 }
 .div_balloon {
     display: flex;
@@ -146,17 +146,19 @@ main {
 .frase {
     display: flex;
     align-items: center;
+    margin-top: 50px;
 }
 .button_two button{
-    padding: 15px 35px;
+    padding: 25px 85px;
     background-color: #E3BC30;
     font-weight: 500;
     color: black;
     border: none;
     border-radius: 5px;
     cursor: pointer;
-    font-size: 1em; 
+    font-size: 2em; 
     margin-top: 30px;
+    margin-bottom: 70px;
     transition: transform .5s ease;
 }
 .button_two button:hover {
