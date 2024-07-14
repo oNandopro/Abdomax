@@ -83,7 +83,7 @@ main {
 }
 .sec_desc {
     display: flex;
-    background-color: #a1cdec81;
+    background-color: #a1cdec4d;
 }
 .sec_balloon {
     display: flex;
@@ -114,7 +114,7 @@ main {
     font-weight: bold;
 }
 .sec_price {
-    background-color: #a1cdec81;
+    background-color: #a1cdec4d;;
 }
 .container_main {
     display: flex;
@@ -201,7 +201,7 @@ section .info_one {
     padding-bottom: 30px;
     box-shadow: 2px 2px 5px rgba(0, 0, 0, 0.599);
     transition: transform .6s ease;
-    background-color: #a1cdec81;
+    background-color: #a1cdec36;
 }
 .box_price:hover {
     transform: scale(1.05);
@@ -253,6 +253,12 @@ h3 {
     font-size: 2.5em;
     margin-top: 15px;
 }
+.bonus {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size: 1.4em;
+}
 .imagem_buy {
     display: flex;
     justify-content: center;
@@ -262,6 +268,7 @@ h3 {
     display: flex;
     flex-direction: column; 
     align-items: center;  
+    margin-bottom: 25px;
 }
 .p_best_price {
     font-size: 8em;
@@ -315,8 +322,8 @@ h3 {
 .shipping {
     display: flex;
     justify-content: center;
-    margin-top: 25px;
-    font-size: 1.3em;
+    margin-top: 5px;
+    font-size: 1em;
 }
 /* STAMPS */
 .sec_stamps {
@@ -325,14 +332,14 @@ h3 {
     align-items: center;
     color: white;
     height: 150px;
-    background-color: #17214C ;
+    background-color: #2C533C ;
 }
 /* FOOTER */
 footer {
     display: flex;
     justify-content: center;
     align-items: center;
-    background-color: #D5D5D5 ;
+    background-color: #a1cdec4d; ;
     width: 100%;
     height: auto;
 }
@@ -434,12 +441,12 @@ footer div p a {
         font-size: 1em;
     }
     .box_price {
-        height: 350px;
+        height: auto;
     }
     .box_price_center {
         order: -1;
         margin: 20px;
-        height: 350px;
+        height: auto;
     }
     .order {
         order: 0;
@@ -496,8 +503,8 @@ footer div p a {
         font-size: 1.5em;
     }
     .button_two button {
-        margin-top: 30px;
-        width: 300px;
+        margin-top: 20px;
+        width: 400px;
     }
 
     .descricao, .imagem {
@@ -548,7 +555,7 @@ footer div p a {
         display: flex;
         justify-content: center;
         width: 700px;
-        height: 350px;
+        height: auto;
     }
     .box_price_center {
         display: flex;
@@ -556,7 +563,7 @@ footer div p a {
         order: -1;
         margin: 20px;
         width: 700px;
-        height: 350px;
+        height: auto;
     }
     .order {
         order: 0;
