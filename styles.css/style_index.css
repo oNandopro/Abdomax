@@ -200,7 +200,7 @@ section .info_one {
     padding-bottom: 30px;
     box-shadow: 2px 2px 5px rgba(0, 0, 0, 0.599);
     transition: transform .6s ease;
-    background-color: #a1cdec36;
+    background-color: white;
 }
 .box_price:hover {
     transform: scale(1.05);
@@ -223,6 +223,7 @@ section .info_one {
     padding-bottom: 30px;
     box-shadow: 5px 5px 10px rgba(0, 0, 0, 0.349);
     transition: transform .3s ease;
+    background-color: white;
 }
 .box_price_center:hover {
     transform: scale(1.04);
@@ -240,13 +241,14 @@ section .info_one {
     flex-direction: column;
     justify-content: center;
     align-items: center;
-    margin-top: 30px;
+    margin-top: 0px;
 }
 .p_customer {
-    padding: 10px;
+    padding: 15px;
     background-color: #A1CDEC;
     border-radius: 10px;
     font-weight: bold;
+    margin-top: 20px;
 }
 h3 {
     font-size: 2.5em;
@@ -290,7 +292,7 @@ h3 {
     border: none;
     border-radius: 10px;
     cursor: pointer;
-    font-size: 2em; 
+    font-size: 1.5em; 
     margin-top: 20px;
     transition: transform .3s ease;
 }
@@ -549,7 +551,7 @@ footer div p a {
         display: flex;
         justify-content: center;
         order: -1;
-        margin: 20px;
+        margin: 30px;
         width: 700px;
         height: auto;
         background-color: white;
@@ -562,26 +564,35 @@ footer div p a {
     .division {
         display: flex;
         flex-direction: row;
-        justify-content: center;
+        width: 700px;
+        justify-content: space-evenly;
         align-items: center;
         margin-top: 30px;
     }
     .div_cel_left {
         display: flex;
         flex-direction: column;
-        background-color: #2C533C;
     }
     .div_cel_rigth {
         display: flex;
         flex-direction: column;
         justify-content: center;
-        background-color: aqua;
     }
     .p_customer {
+        display: flex;
+        justify-content: center;
         font-size: 2em;
+        width: 700px;
+        margin-top: -7px;
+        border-bottom-left-radius: 0;
+        border-bottom-right-radius: 0;
+        background-color: #2C533C;
+        text-shadow: 1px 1px 2px rgba(255, 253, 253, 0.411);
+        color: #A1CDEC;
     }
     h3 {
-        font-size: 2em;
+        margin-top: 50px;
+        font-size: 3em;
     }
     .buy_now_button button {
         font-size: 1em;
