@@ -166,7 +166,6 @@ section .info_one {
     cursor: pointer;
     font-size: 2em; 
     margin-top: 30px;
-    margin-bottom: 70px;
     transition: transform .5s ease;
 }
 .button_two button:hover {
@@ -216,7 +215,7 @@ section .info_one {
     justify-content: center;
     border-color: rgba(0, 0, 0, 0.664);
     border-style: solid;
-    border-width: 3px;
+    border-width: 1px;
     border-radius: 15px;
     width: 400px;
     height: auto;
@@ -478,6 +477,7 @@ footer div p a {
     }
     .name_product h1 {
         margin-bottom: 20px;
+        font-size: 5em;
     }
     .button_one button {
         padding: 10px 15px;
@@ -512,7 +512,7 @@ footer div p a {
     }
     /* DIV BALLOON */
     .div_balloon {
-        font-size: 1.5em;
+        font-size: 1.9em;
     }
     /* MAIN */
     .container_main {
@@ -531,8 +531,15 @@ footer div p a {
     }
     .info_body {
         display: flex;
-        flex-direction: row;
+        flex-direction: column;
         justify-content: center;
+    }
+    .cel_division {
+        display: flex;
+        flex-direction: row;
+        background-color: #E3BC30;
+        width: 1000px;
+        height: 1000px;
     }
     .div_cel_left {
         display: flex;
@@ -556,6 +563,7 @@ footer div p a {
         justify-content: center;
         width: 700px;
         height: auto;
+        background-color: #E2EFF8;;
     }
     .box_price_center {
         display: flex;
@@ -564,6 +572,7 @@ footer div p a {
         margin: 20px;
         width: 700px;
         height: auto;
+        background-color: #a1cdec36;
     }
     .order {
         order: 0;
