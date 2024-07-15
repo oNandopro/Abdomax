@@ -506,7 +506,6 @@ footer div p a {
         margin-top: 20px;
         width: 400px;
     }
-
     .descricao, .imagem {
         width: 100%; /* Ajuste conforme necessário */
     }
@@ -529,51 +528,6 @@ footer div p a {
         align-items: center;
         width: 700px;
     }
-    .info_body {
-        display: flex;
-        flex-direction: column;
-        justify-content: center;
-    }
-    .cel_division {
-        display: flex;
-        flex-direction: row;
-        background-color: #E3BC30;
-        width: 1000px;
-        height: 1000px;
-    }
-    .div_cel_left {
-        display: flex;
-        flex-direction: column;
-        margin: 50px;
-    }
-    .div_cel_rigth {
-        display: flex;
-        flex-direction: column;
-        justify-content: center;
-        margin: 50px;
-    }
-    h3 {
-        font-size: 2em;
-    }
-    .buy_now_button button {
-        font-size: 1em;
-    }
-    .box_price {
-        display: flex;
-        justify-content: center;
-        width: 700px;
-        height: auto;
-        background-color: #E2EFF8;;
-    }
-    .box_price_center {
-        display: flex;
-        justify-content: center;
-        order: -1;
-        margin: 20px;
-        width: 700px;
-        height: auto;
-        background-color: #a1cdec36;
-    }
     .order {
         order: 0;
         margin: 20px;
@@ -582,8 +536,55 @@ footer div p a {
     .order_one {
         order: 1;
         margin: 20px;
-        margin-top: 10px;
-        
+        margin-top: 10px;  
+    }
+    .box_price {
+        display: flex;
+        justify-content: center;
+        width: 700px;
+        height: auto;
+        background-color: white;
+    }
+    .box_price_center {
+        display: flex;
+        justify-content: center;
+        order: -1;
+        margin: 20px;
+        width: 700px;
+        height: auto;
+        background-color: white;
+    }
+    .info_body {
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+    }
+    .division {
+        display: flex;
+        flex-direction: row;
+        justify-content: center;
+        align-items: center;
+        margin-top: 30px;
+    }
+    .div_cel_left {
+        display: flex;
+        flex-direction: column;
+        background-color: #2C533C;
+    }
+    .div_cel_rigth {
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        background-color: aqua;
+    }
+    .p_customer {
+        font-size: 2em;
+    }
+    h3 {
+        font-size: 2em;
+    }
+    .buy_now_button button {
+        font-size: 1em;
     }
     .p_best_price {
         font-size: 6em;
