@@ -310,6 +310,7 @@ h3 {
 }
 .today_only {
     color: black;
+    font-weight: 700;
 }
 .riscado {
     text-decoration: line-through;
