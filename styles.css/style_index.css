@@ -428,11 +428,14 @@ footer div p a {
         font-size: 1.6em;
     }
     /* MAIN */
+    .sec_price {
+        width: 100%;
+    }
     .container_main {
         display: flex;
         flex-direction: column;
         justify-content: center;
-        width: auto;
+        width: 100%;
     }
     /* PRICE */
     .info_price {
@@ -441,7 +444,7 @@ footer div p a {
         justify-content: center;
         align-items: center;
         margin-top: 40px;
-        width: auto;
+        width: 100%;
     }
     .order {
         order: 0;
@@ -456,15 +459,13 @@ footer div p a {
     .box_price {
         display: flex;
         justify-content: center;
-        margin-bottom: 20px;
-        max-width: 100%;
     }
     .box_price_center {
         display: flex;
         justify-content: center;
         order: -1;
         margin-bottom: 30px;
-        max-width: 100%;
+        max-width: 90%;
     }
     .info_body {
         display: flex;
