@@ -129,6 +129,7 @@ main {
 .container_main {
     display: flex;
     flex-direction: column; 
+    justify-content: space-around;
     margin: 0 auto; 
     padding: 20px; 
     margin-bottom: 40px;
@@ -388,6 +389,10 @@ footer div p a {
     }  
     .imagem_cel {
         display: flex;
+        max-width: 100%;
+    }
+    .imagem_buy {
+        max-width: 100%;
     }
     .info_one {
         display: flex;
@@ -427,7 +432,7 @@ footer div p a {
         display: flex;
         flex-direction: column;
         justify-content: center;
-        
+        width: auto;
     }
     /* PRICE */
     .info_price {
@@ -436,6 +441,7 @@ footer div p a {
         justify-content: center;
         align-items: center;
         margin-top: 40px;
+        width: auto;
     }
     .order {
         order: 0;
@@ -469,7 +475,7 @@ footer div p a {
     .division {
         display: flex;
         flex-direction: column;
-        width: 700px;
+        width: 100%;
         justify-content: space-evenly;
         align-items: center;
     }
@@ -486,6 +492,9 @@ footer div p a {
     }
     h3 {
         font-size: 1.2em;
+    }
+    p.p_customer{
+        width: auto;
     }
     .buy_now_button button {
         font-size: 1em;
@@ -561,7 +570,6 @@ footer div p a {
     }
     /* PRICE */
     .sec_price {
-
         display: flex;
         flex-direction: column;
         justify-content: center;
@@ -573,6 +581,10 @@ footer div p a {
         flex-direction: column;
         justify-content: center;
         align-items: center;
+        width: 100%;
+    }
+    .p_customer {
+        width: 100%;
     }
     .order {
         order: 0;
