@@ -529,6 +529,7 @@ footer div p a {
     /* FOOTER */
     .container_footer {
         height: 50PX;
+        font-size: 0.8em;
     }
 }
 @media (min-width: 769px) and (max-width: 1179px) {
